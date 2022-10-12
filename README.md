@@ -91,7 +91,7 @@
 - Click the exe software in the folder to run directly without installation
   + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/2.jpg)
 - The running interface is as follows:
-  + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/1.jpg
+  + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/1.jpg)
 - How to use:
   1. Click Input File to select the pdf to be edited
   2. Click Output Path to specify the output path (default D drive)
@@ -102,9 +102,9 @@
 ## Use Cases
 
 - Textbooks
-+ ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/3.jpg)
+ + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/3.jpg)
 - paper
-+ ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/4.jpg)
+ + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/4.jpg)
 
 
 
