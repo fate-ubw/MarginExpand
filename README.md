@@ -1,2 +1,0 @@
-# MarginExpand
-MarginExpand用于解决阅读pdf、电子书和论文时做笔记地方不够的问题，MarginExpand可以实现Pdf margin expand功能，可批量为pdf文件添加白边，实现裁切功能，并且可以挑选纸张的样式，非常适合电子笔记爱好者。本项目用python，pyqt，pyside2开发，可以独立运行在windows系统。
