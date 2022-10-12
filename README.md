@@ -67,6 +67,74 @@
 + 合并Start按钮和进度条信息
 
 
+# English Version
 
+# MarginExpand
+
+ MarginExpand is used to solve the problem of insufficient space for taking notes when reading pdfs, e-books and papers. MarginExpand can realize the Pdf margin expand function, which can add white margins to pdf files in batches according to the size of the files, and can choose the style of the paper, which is very suitable for electronic Notebook lover. This project is developed with python, pyqt, pyside2, and can run independently on windows system.
+
+
+
+## What is the problem I want to solve :
+
+- Every time I read the paper and read the e-book, I have no place to take notes and no place to make annotations. This has to make me write the notes on other files, but this will separate the notes from the pdf file and review it. It is a very troublesome thing to need to open two files at the same time. If you can add additional areas to take notes on papers, e-books, and courseware, it will greatly improve the efficiency of note-taking
+- There are many softwares on the market that can realize pdf cutting and page editing, such as wps, abobe, photoshop, etc., but there are three disadvantages
+  - Cannot batch process multiple pdf files, you can only manually edit one file at a time
+  - You cannot add squares, horizontal lines, dots and other styles to the white border
+  - Editing pdf files manually, modifying page size and margins, it takes a lot of time each time,
+- The note-taking software that implements this function on the ipad is only marginnote3, but this software cannot add formatting to white borders, nor can it be processed in batches. Because I usually have a very high demand for pdf white border expansion, and every time I use the professional software on the PC side, it is very time-consuming, and the more I use it, the more angry I am (why are goodnotes and other note-taking software not integrated with this function) Finally, I simply I made MarginExpand myself to solve this problem
+
+
+
+## User's guidance
+
+- Click the exe software in the folder to run directly without installation
+  + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/2.jpg)
+- The running interface is as follows:
+  + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/1.jpg
+- How to use:
+  1. Click Input File to select the pdf to be edited
+  2. Click Output Path to specify the output path (default D drive)
+  3. Select the paper style of the margin (blank paper, squared paper, ruled paper)
+  4. Select the extension size (recommended extension Wide(50%) and (SuperWide100%))
+  5. Start!
+
+## Use Cases
+
+- Textbooks
++ ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/3.jpg)
+- paper
++ ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/4.jpg)
+
+
+
+## bugs
+
+- The speed of the software is sometimes fast and sometimes slow. The specific reason is unknown. Due to the use of multi-threading, it may be a problem of multi-threading or running memory
+- Since the software essentially uses the function library of PyPDF2 to cut the media box (MediaBox) and crop box (CropBox) of the pdf, if the pdf file has been cut by other software (some software only modify the view) The size of the pdf is not adjusted, and the parameters are not adjusted), then the ideal effect may not be obtained.
+
+
+
+## Source code and code packaging
+
+- The code is all open source, written in python language, using the function library as follows
+
+1. Pyside2
+2. PyPDF2
+3. decimal
+4. threading
+
+- Use pyinstaller for packaging. If you encounter problems during packaging, you can ask questions in the issue
+
+
+
+## Future features
+
+- You can also add a white border on the left
+- Open up multiple threads to operate multiple pdf files at the same time to improve the running speed of the software
+- Add the preview function of pdf files, so that users can have a rough grasp of the width of white borders added to pdf
+- Add the file operation of directly opening the output, without the need for the user to find the generated pdf function
+- Realize the function of converting word, ppt, pptx, caj, md and other files to pdf, and adding white borders
+- Merged Start button and progress bar information
 
 
