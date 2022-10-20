@@ -20,7 +20,7 @@
 + 点击文件夹中的exe软件，无需安装直接运行
   + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/2.jpg)
 + 运行界面如下：
-  + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/1.jpg)
+  + ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E.jpg)
 + 使用方式：
   1. 点击Input File 选择需要编辑的pdf
   2. 点击Output Path 指定输出路径（默认D盘）
