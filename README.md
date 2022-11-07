@@ -31,10 +31,12 @@
 ## 使用案例
 
 + 教材
-+ ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/3.jpg)
+![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/3.jpg)
 + 论文
-+ ![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/4.jpg)
-
+![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/4.jpg)
+![iamge](https://github.com/fate-ubw/MarginExpand/blob/main/image/6.jpg)
++ 课件笔记
+![image](https://github.com/fate-ubw/MarginExpand/blob/main/image/5.jpg)
 
 
 ## 软件bug
